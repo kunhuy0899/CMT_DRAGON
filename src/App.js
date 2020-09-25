@@ -10,7 +10,7 @@ function App() {
         <p>
          master
         </p>
-        
+        <p>quoc thai</p>
       </header>
     </div>
   );
