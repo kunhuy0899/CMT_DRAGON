@@ -1,19 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-         master
-        </p>
-        
-      </header>
-    </div>
-  );
+import React, { Component } from 'react';
+import {withRouter} from 'react-router-dom';
+import Head from './conponent/layout/head';
+import Footer from './conponent/layout/footer'
+class App extends Component {
+  constructor(props) {
+    super(props)
+  }
+  render() {
+    return (
+      <div>
+        <Head />
+        {this.props.children}
+        <Footer />
+      </div>
+    )
+  }
 }
 
-export default App;
+export default withRouter(App);
