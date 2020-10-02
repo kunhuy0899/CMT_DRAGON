@@ -1,19 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-         master
-        </p>
-        
-      </header>
-    </div>
-  );
+import React,{Component} from 'react';
+import Head from './component/content/head';
+import Content from "./component/container/contet";
+import Qlogs from "./component/container/qlogs"
+import Footer from "./component/content/footer";
+class App extends Component{
+  render(){
+    return(
+      <div style={{ background:'#fafafa'}}>
+        <Head/>
+        <Content/>
+        <Qlogs/>
+        <Footer/>
+      </div>
+    )
+  }
 }
 
-export default App;
+export default App
+  
