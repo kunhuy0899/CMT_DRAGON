@@ -1,0 +1,594 @@
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+      
+    }
+  }
+header{
+    height: 100px;
+}
+#header-a {
+    color: #3f3f3f;
+    font-size: 14px;
+}
+
+.h-1 {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.p-1 {
+    margin-top: 20px;
+    color: #005a87;
+    font-size: 14px;
+    text-align: justify;
+}
+
+i {
+    color: #ccc;
+}
+
+.i-1:hover {
+    color: tomato;
+}
+
+.i-2:hover {
+    color: yellowgreen;
+}
+
+.i-3:hover {
+    color: #005a87;
+}
+
+.abc:hover {
+    background-color: #777;
+    color: white;
+}
+
+.a-1 {
+    color: black;
+}
+
+.a-1:hover {
+    color: white;
+}
+
+#nav1 {
+    position: fixed;
+    margin: 0px;
+    z-index: 100;
+    width: 100%;
+    background-color: rgb(255, 253, 253);
+    box-shadow: 1px 1px 1px 1px whitesmoke;
+}
+/**/
+.block{
+    height: 357px;
+    padding: 0px 180px 0px 180px;  
+}
+.nd-3{
+    text-align: center;
+}
+.nd-3 > p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    letter-spacing: 0.005em;
+    font-style: italic;
+}
+
+.box > h2{
+    padding-top: 40px;
+    text-align: center;  
+    color: #333;
+    font: normal 29px 'Manjari', Helvetca, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.01em; 
+}
+.nd-img {
+    margin-right: 30px;
+}
+.nd-img > img{
+    padding-top: 20px;
+}
+.nd-4 {
+    margin: 35px 0px 35px 0px;
+}
+.nd-p >p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 14px;
+    text-align: justify;
+    font-family: 'Manjari', Helvetca, Arial, sans-serif;
+    /*line-height: 20px;*/
+}
+
+.nd-4 > p{ 
+    margin: 0;
+    color: #3f3f3f;
+    font: normal 26px 'Open Sans', Helvetca, Arial, sans-serif;
+    line-height: 1.2;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 26px;
+    margin-left: 50px;
+}
+.nd-5{
+    margin: 30px 0px 30px -70px;
+}
+.btn{
+      width: 185px;
+      height: 45px;
+      margin-left: 20px;
+      font-weight: 600;
+      font-size: 14px;
+}
+/*css solutions*/
+.solu-box1 > h1 {
+    margin: 0 0 20px 0;
+    padding: 0;
+    color: #333;
+    font: normal 34px 'Manjari', Helvetca, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: -0.015em;
+}
+.solu-box1 > p {
+    margin: 0 0 12px 0;
+    padding: 0;
+    color: #333;
+    font: bold 13px 'Manjari', Helvetca, Arial, sans-serif;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.solu-box1 > ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    color: #1b345a;
+
+}
+.solu-box1 > ul >li{
+    letter-spacing: 0.005em;
+    line-height: 18px;
+    margin-bottom: 9px;
+    font-size: 14px;
+}
+ul.tick3 {
+    margin: 5px 0 5px 24px !important;
+    list-style: none;
+
+}
+ul[class], .content ol[class] {
+    padding: 5px 0;
+}
+.fa-check{
+    color: #f28728;
+}
+
+.solu-box-4 > h1 {
+    margin: 0 0 20px 0;
+    padding: 0;
+    color: #333;
+    font: normal 34px 'Manjari', Helvetca, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: -0.015em;
+}
+.solu-box-4 > p {
+    margin: 0 0 12px 0;
+    padding: 0;
+    color: #333;
+    font: bold 13px 'Manjari', Helvetca, Arial, sans-serif;
+    font-weight: 600;
+    line-height: 22px;
+}
+/*css trangdingSystem*/
+.solu-section{
+    width: 100%;
+    height: 404px;
+    padding-bottom: 35px;
+}
+.solu-box1{
+    float: right;
+    width: 50%;
+}
+.solu-box-2{
+    float: left;
+    width: 50%;
+   
+}
+.solu-box-2 > h1 {
+    margin: 0 0 20px 0;
+    padding: 0;
+    color: #333;
+    font: normal 34px 'Manjari', Helvetca, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: -0.015em;
+}
+.solu-box-2 > p {
+    margin: 0 0 12px 0;
+    padding: 0;
+    color: #333;
+    font: bold 13px 'Manjari', Helvetca, Arial, sans-serif;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.solu-box-2 > ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    color: #1b345a;
+
+}
+.solu-box-2 > ul >li{
+    letter-spacing: 0.005em;
+    line-height: 18px;
+    margin-bottom: 9px;
+    font-size: 14px;
+}
+ul.tick3 {
+    margin: 5px 0 5px 24px !important;
+    list-style: none;
+
+}
+ul[class], .content ol[class] {
+    padding: 5px 0;
+}
+.fa-check{
+    color: #f28728;
+}
+
+.solu-box-3{
+    float: left;
+    width: 50%;
+}
+.solu-box-4 > h1 {
+    margin: 0 0 20px 0;
+    padding: 0;
+    color: #333;
+    font: normal 34px 'Manjari', Helvetca, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: -0.015em;
+}
+.solu-box-4 > p {
+    margin: 0 0 12px 0;
+    padding: 0;
+    color: #333;
+    font: bold 13px 'Manjari', Helvetca, Arial, sans-serif;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.solu-box-4 > ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    color: #1b345a;
+
+}
+.solu-box-4 > ul >li{
+    letter-spacing: 0.005em;
+    line-height: 18px;
+    margin-bottom: 9px;
+    font-size: 14px;
+}
+.solu-box-4>ul.tick3 {
+    margin: 5px 0 5px 24px !important;
+    list-style: none;
+}
+.solu-box5{
+    float: right;
+    width: 50%;
+}
+.solu-box-6{
+    float: left;
+    width: 50%;
+   
+}
+.solu-box-6 > h1 {
+    margin: 0 0 20px 0;
+    padding: 0;
+    color: #333;
+    font: normal 34px 'Manjari', Helvetca, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: -0.015em;
+}
+.solu-box-6 > p {
+    margin: 0 0 12px 0;
+    padding: 0;
+    color: #333;
+    font: bold 13px 'Manjari', Helvetca, Arial, sans-serif;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.solu-box-6 > ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    color: #1b345a;
+
+}
+.solu-box-6 > ul >li{
+    letter-spacing: 0.005em;
+    line-height: 18px;
+    margin-bottom: 9px;
+    font-size: 14px;
+}
+.solu-section-1{
+    width: 100%;
+    height: 404px;
+    padding-top: 35px;
+}
+/*css solutions*/
+.solu-section{
+    width: 100%;
+    height: 404px;
+    padding-bottom: 35px;
+}
+.solu-box1{
+    float: left;
+    width: 50%;
+}
+.solu-box-2{
+    float: right;
+    width: 50%;
+}
+.solu-box1 > h1 {
+    margin: 0 0 20px 0;
+    padding: 0;
+    color: #333;
+    font: normal 34px 'Manjari', Helvetca, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: -0.015em;
+}
+.solu-box1 > p {
+    margin: 0 0 12px 0;
+    padding: 0;
+    color: #333;
+    font: bold 13px 'Manjari', Helvetca, Arial, sans-serif;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.solu-box1 > ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    color: #1b345a;
+
+}
+.solu-box1 > ul >li{
+    letter-spacing: 0.005em;
+    line-height: 18px;
+    margin-bottom: 9px;
+    font-size: 14px;
+}
+ul.tick3 {
+    margin: 5px 0 5px 24px !important;
+    list-style: none;
+
+}
+ul[class], .content ol[class] {
+    padding: 5px 0;
+}
+.fa-check{
+    color: #f28728;
+}
+
+.solu-box-3{
+    float: left;
+    width: 50%;
+}
+.solu-box-4 > h1 {
+    margin: 0 0 20px 0;
+    padding: 0;
+    color: #333;
+    font: normal 34px 'Manjari', Helvetca, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: -0.015em;
+}
+.solu-box-4 > p {
+    margin: 0 0 12px 0;
+    padding: 0;
+    color: #333;
+    font: bold 13px 'Manjari', Helvetca, Arial, sans-serif;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.solu-box-4 > ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    color: #1b345a;
+
+}
+.solu-box-4 > ul >li{
+    letter-spacing: 0.005em;
+    line-height: 18px;
+    margin-bottom: 9px;
+    font-size: 14px;
+}
+.solu-box-4>ul.tick3 {
+    margin: 5px 0 5px 24px !important;
+    list-style: none;
+}
+.solu-section-1{
+    width: 100%;
+    height: 404px;
+    padding-top: 35px;
+}
+
+.solu-box-4 > ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    color: #1b345a;
+
+}
+.solu-box-4 > ul >li{
+    letter-spacing: 0.005em;
+    line-height: 18px;
+    margin-bottom: 9px;
+    font-size: 14px;
+}
+.solu-box-4>ul.tick3 {
+    margin: 5px 0 5px 24px !important;
+    list-style: none;
+}
+.solu-section-1{
+    width: 100%;
+    height: 404px;
+    padding-top: 35px;
+}
+/*css solutions*/
+.solu-section{
+    width: 100%;
+    height: 404px;
+    padding-bottom: 35px;
+}
+.solu-box1{
+    float: left;
+    width: 50%;
+}
+.solu-box-2{
+    float: right;
+    width: 50%;
+}
+.solu-box1 > h1 {
+    margin: 0 0 20px 0;
+    padding: 0;
+    color: #333;
+    font: normal 34px 'Manjari', Helvetca, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: -0.015em;
+}
+.solu-box1 > p {
+    margin: 0 0 12px 0;
+    padding: 0;
+    color: #333;
+    font: bold 13px 'Manjari', Helvetca, Arial, sans-serif;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.solu-box1 > ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    color: #1b345a;
+
+}
+.solu-box1 > ul >li{
+    letter-spacing: 0.005em;
+    line-height: 18px;
+    margin-bottom: 9px;
+    font-size: 14px;
+}
+ul.tick3 {
+    margin: 5px 0 5px 24px !important;
+    list-style: none;
+
+}
+ul[class], .content ol[class] {
+    padding: 5px 0;
+}
+.fa-check{
+    color: #f28728;
+}
+
+.solu-box-3{
+    float: left;
+    width: 50%;
+}
+.solu-box-4 > h1 {
+    margin: 0 0 20px 0;
+    padding: 0;
+    color: #333;
+    font: normal 34px 'Manjari', Helvetca, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: -0.015em;
+}
+.solu-box-4 > p {
+    margin: 0 0 12px 0;
+    padding: 0;
+    color: #333;
+    font: bold 13px 'Manjari', Helvetca, Arial, sans-serif;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.solu-box-4 > ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    color: #1b345a;
+
+}
+.solu-box-4 > ul >li{
+    letter-spacing: 0.005em;
+    line-height: 18px;
+    margin-bottom: 9px;
+    font-size: 14px;
+}
+.solu-box-4>ul.tick3 {
+    margin: 5px 0 5px 24px !important;
+    list-style: none;
+}
+.solu-section-1{
+    width: 100%;
+    height: 404px;
+    padding-top: 35px;
+}

@@ -1,0 +1,131 @@
+
+#header-a {
+    color: #3f3f3f;
+    font-size: 14px;
+}
+
+.h-1 {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.p-1 {
+    margin-top: 20px;
+    color: #005a87;
+    font-size: 14px;
+    text-align: justify;
+}
+
+i {
+    color: #ccc;
+}
+
+.i-1:hover {
+    color: tomato;
+}
+
+.i-2:hover {
+    color: yellowgreen;
+}
+
+.i-3:hover {
+    color: #005a87;
+}
+
+.abc:hover {
+    background-color: #777;
+    color: white;
+}
+
+.a-1 {
+    color: black;
+}
+
+.a-1:hover {
+    color: white;
+}
+
+#nav1 {
+    position: fixed;
+    margin: 0px;
+    z-index: 100;
+    width: 100%;
+    background-color: rgb(255, 253, 253);
+    box-shadow: 1px 1px 1px 1px whitesmoke;
+}
+.section-1{
+    padding-top: 60px;
+}
+.block{
+    height: 657px;
+    padding: 0px 180px 0px 180px;  
+}
+.block-1{
+    text-align: center;
+    padding-top: 60px;
+}
+.block-1 > p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    letter-spacing: 0.005em;
+    font-style: italic;
+}
+.box{
+    height: 530px;
+    padding: 30px 0px 30px 0px;
+}
+.box > h2{
+    text-align: center;  
+    color: #333;
+    font: normal 29px 'Manjari', Helvetca, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.01em; 
+}
+.block-2{
+    float: left;
+    width: 33%;
+    padding-left: 140px;
+}
+.block-2 > img{
+    text-align: left;
+    content .col img {
+        width: auto;
+        height: auto;
+        max-width: 100%;
+    }
+}
+.block-3{
+    float: right;
+    width: 67%;
+    padding-right: 140px;
+}
+.block-3 >p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 14px;
+    text-align: justify;
+    font-family: 'Manjari', Helvetca, Arial, sans-serif;
+}
+.block-4{
+    height: 156px;
+    line-height: 100px;
+}
+.block-4 > p{
+    margin: 0;
+    color: #3f3f3f;
+    font: normal 26px 'Open Sans', Helvetca, Arial, sans-serif;
+    line-height: 1.2;
+    display: inline-block;
+    vertical-align: middle;
+}
+.btn{
+      width: 192px;
+      height: 46px;
+      margin-left: 20px;
+      font-weight: 600;
+}
